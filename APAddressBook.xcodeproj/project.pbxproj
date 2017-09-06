@@ -111,7 +111,7 @@
 		CD189AE61E9D3D0A009CDF82 /* APSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSource.m; sourceTree = "<group>"; };
 		CD189AE71E9D3D0A009CDF82 /* APTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTypes.h; sourceTree = "<group>"; };
 		CD189AE91E9D3D0A009CDF82 /* APAddressBook-Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APAddressBook-Bridging.h"; sourceTree = "<group>"; };
-		CD7A3E391E9E516F008F8138 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		CD7A3E391E9E516F008F8138 /* APAddressBook.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = APAddressBook.modulemap; sourceTree = "<group>"; };
 		CDC826A71E9E465000F36076 /* APAddressBookFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAddressBookFramework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +129,7 @@
 		CD189A271E9D39D1009CDF82 = {
 			isa = PBXGroup;
 			children = (
-				CD7A3E391E9E516F008F8138 /* module.modulemap */,
+				CD7A3E391E9E516F008F8138 /* APAddressBook.modulemap */,
 				CD189AAA1E9D3D04009CDF82 /* Info.plist */,
 				CD189AAC1E9D3D0A009CDF82 /* Pod */,
 				CD189A321E9D39D1009CDF82 /* Products */,
@@ -544,6 +544,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = APAddressBook.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alterplay.APAddressBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -561,6 +562,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = APAddressBook.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alterplay.APAddressBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
